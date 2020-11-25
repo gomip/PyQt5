@@ -1,0 +1,12 @@
+#btn_frame {
+    background-color: #757575;
+}
+
+#qus_frame {
+    background-color: white;
+}
+
+#fil_grp_layout {
+    background-color: #1E1E1E;
+    height : 300px;
+}
