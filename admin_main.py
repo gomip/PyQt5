@@ -239,7 +239,8 @@ class AdminMain(QWidget):
     # 선택값에 따른 pd값 업데이트 시작 -----------------------------------------------------------------------
     def handleUpdateExcel(self, value):
         try:
-            self.currentData = self.df['분류표(강)'] == self.chp
+            cdn = (self.df['분류표(강)'] == self.chp)
+            self.currentData = self.df[cdn]
             print(self.currentData)
         except Exception as e :
             print(e)
